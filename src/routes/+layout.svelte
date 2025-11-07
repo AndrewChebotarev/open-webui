@@ -717,6 +717,14 @@
 	/>
 </svelte:head>
 
+<style>
+    body {
+        background-image: url('/static/photo_2025-11-06_22-22-06.jpg') !important;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+</style>
+
 {#if showRefresh}
 	<div class=" py-5">
 		<Spinner className="size-5" />

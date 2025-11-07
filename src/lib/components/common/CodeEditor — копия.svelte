@@ -7,6 +7,8 @@
   function focus() {
     // stub function
   }
+  
+  $: console.log('CodeEditor simplified version loaded');
 </script>
 
 <textarea 
